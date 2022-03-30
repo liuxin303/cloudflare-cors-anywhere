@@ -6,12 +6,12 @@ https://github.com/Zibri/cloudflare-cors-anywhere
 */
 
 /*
-whitelist = [ "^http.?://www.chenhanpeng.com$", "chenhanpeng.com$" ];  // regexp for whitelisted urls
+whitelist = [ "^http.?://www.xinlwork.cn$", "xinlwork.cn$" ];  // regexp for whitelisted urls
 */
 
 blacklist = [ ];           // regexp for blacklisted urls
 // whitelist = [ ".*" ];     // regexp for whitelisted origins
-whitelist = [ "^http.?://www.chenhanpeng.com$", "chenhanpeng.com$" ]
+whitelist = [ "^http.?://www.xinlwork.cn$", "xinlwork.cn$" ]
 
 function isListed(uri,listing) {
     var ret=false;
